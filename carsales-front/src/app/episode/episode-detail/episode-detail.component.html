@@ -1,0 +1,29 @@
+<div *ngIf="Episode && showDetail" class="divEpisode">
+  <div class="divEpisodeContainer">
+    <h1>{{Episode.name}}</h1>
+
+      <div class="divEpisodeDetail">
+        <!--  -->
+        <div>
+          <span>Episode: {{Episode.episode}}</span>
+        </div>
+        <!--  -->
+        <div>
+          <span>Created: {{Episode.episode}}</span>
+        </div>
+        <!--  -->
+        <div>
+          <span>Air date: {{Episode.air_date}}</span>
+        </div>
+        <!--  -->
+      </div>
+      <!--  -->
+        <div class="divEpisodeDetailFooter">
+          <h2 >Characters on this episode!: </h2>
+        </div>
+  </div>
+
+
+  <app-character [Characters]="Characters"></app-character>
+
+</div>

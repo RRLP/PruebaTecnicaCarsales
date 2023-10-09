@@ -1,0 +1,54 @@
+.divCharacterContainer{
+  background-color: var(--RyMblue);
+  border: 5px solid var(--RyMgreen);
+  border-top: none;
+  border-radius: 20px;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+}
+
+.cardContainer{
+  display: inline-flex;
+  border: 2px solid var(--RyMgreen);
+  border-radius: 10px;
+  padding: 2px 7px;
+  margin: 8px;
+  min-width: 18vw;
+  max-width:18vw;
+}
+
+.card{
+  width: 100%;
+  .cardInfo{
+    display: flex;
+  }
+}
+
+.cardInfo>div>img{
+  max-width: 10vw;
+  border-radius:15%;
+}
+
+.cardDetail{
+  width: 100%;
+}
+
+.cardDetail>span{
+  font-size: 20px;
+}
+
+.cardInfo>.Left{
+  width: 60%;
+}
+.cardInfo>.Left>h3{
+  margin: 6px 0px;
+}
+.cardInfo>.Right{
+  width: 40%;padding-top: 10vh;
+}
+.cardInfo>.Right>span{
+  font-size: 20px;
+}
+.separator{
+  border: 1px solid var(--RyMgreen);
+}

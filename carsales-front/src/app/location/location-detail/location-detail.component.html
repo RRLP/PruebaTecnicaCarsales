@@ -1,0 +1,25 @@
+<div *ngIf="Location" class="divEpisode">
+  <div class="divEpisodeContainer">
+    <h1>{{Location.name}}</h1>
+
+      <div class="divEpisodeDetail">
+        <!--  -->
+        <div>
+          <span>Type: {{Location.type}}</span>
+        </div>
+        <!--  -->
+        <div>
+          <span>Dimension: {{Location.dimension}}</span>
+        </div>
+        <!--  -->
+      </div>
+      <!--  -->
+        <div class="divEpisodeDetailFooter">
+          <h2 >Residents of this location!: </h2>
+        </div>
+  </div>
+
+
+  <app-character [Characters]="Characters"></app-character>
+
+</div>
