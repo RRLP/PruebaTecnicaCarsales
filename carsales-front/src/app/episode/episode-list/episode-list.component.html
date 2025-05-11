@@ -1,0 +1,12 @@
+<div class="episodeList">
+  <h2 class="h2TitleEpisodeList">Episodes list</h2>
+  <ul *ngIf="Info" class="Pages mx10">
+    <li (click)="getEpisodeListByPage(prevPage)" *ngIf="Info.prev"><h3 class="mx0">Previous Page</h3></li>
+    <li (click)="getEpisodeListByPage(nextPage)" *ngIf="Info.next"><h3  class="mx0">Next Page</h3></li>
+  </ul>
+  <div class="divEpisodesList">
+    <ul class="ulEpisode">
+      <li class="liEpisode" *ngFor="let episode of Episodes" (click)="getIdEpisodeid(episode.id)" ngClass="{{episode.id==idEpisode?'selectedEpisode':''}}">{{episode.name}}</li>
+    </ul>
+  </div>
+</div>

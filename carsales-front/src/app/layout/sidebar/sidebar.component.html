@@ -1,0 +1,5 @@
+<!-- <div class="headerText" (click)="setShowEpisode()"><h2>{{ChangeText}}</h2></div>
+{{showEpisodeList}} -->
+
+<app-episode-list *ngIf="showEpisodeList"></app-episode-list>
+<app-location-list *ngIf="!showEpisodeList"></app-location-list>

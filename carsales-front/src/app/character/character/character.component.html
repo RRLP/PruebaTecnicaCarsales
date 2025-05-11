@@ -1,0 +1,34 @@
+<div class="divCharacterContainer">
+  <h2 *ngIf="Characters.length==0">Cargando....</h2>
+
+  <div  class="cardContainer" *ngFor="let Character of Characters">
+    <!--  -->
+    <div class="card">
+
+      <div class="cardInfo">
+        <div>
+          <h3 class="mx10 RyMgreen">{{Character.name}}</h3>
+        </div>
+        <hr class="separator">
+        <div class="row2">
+          <div>
+            <img src="{{Character.image}}" alt="{{Character.name}}" class="characterImg">
+          </div>
+          <div class="infoDetails">
+            <h5>Gender: {{Character.gender}}</h5>
+            <h5>Status: {{Character.status}}</h5>
+            <h5>Specie: {{Character.species}}</h5>
+          </div>
+        </div>
+      </div>
+      <hr class="separator">
+      <div class="cardDetail">
+        <h3 class="mx10">Origin: {{Character.origin.name}}</h3>
+        <div class="locationDiv">
+          <p class="mx10">Current Location: {{Character.location.name}}</p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+  </div>
+</div>

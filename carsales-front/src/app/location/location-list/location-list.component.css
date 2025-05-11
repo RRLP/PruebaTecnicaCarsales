@@ -1,0 +1,28 @@
+.episodeList{
+  overflow-y: auto;max-height: 90vh;
+}
+.h2TitleEpisodeList{
+  color: var(--RyMgreen);
+  text-align: center;
+}
+.selectedEpisode{
+  color: var(--RyMgreen);
+  background-color: var(--RyMblue);
+}
+
+.ulEpisode{
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 24px;
+}
+.liEpisode{
+  cursor: pointer;
+  padding: 4px 0px 4px 10px;
+}
+
+.Pages{
+  display: flex;
+}
+.Pages>li{
+  width: 45%;
+}

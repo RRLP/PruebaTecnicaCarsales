@@ -1,0 +1,10 @@
+<div class="episodeList">
+  <h2 class="h2TitleEpisodeList">Location list</h2>
+  <ul *ngIf="Info" class="Pages">
+    <li (click)="getIdLocationByPage(prevPage)" *ngIf="Info.prev"><h3>Previous Page</h3></li>
+    <li (click)="getIdLocationByPage(nextPage)" *ngIf="Info.next"><h3>Next Page</h3></li>
+  </ul>
+  <ul class="ulEpisode">
+    <li class="liEpisode" *ngFor="let Location of Locations" (click)="getIdLocation(Location.id)" ngClass="{{Location.id==idLocation?'selectedEpisode':''}}">{{Location.name}}</li>
+  </ul>
+</div>

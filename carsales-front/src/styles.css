@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+var(--RyMblue); => azul
+var(--RyMgreen);=> verde
+*/
+:root{
+  --RyMblue:#00b5cc;
+  --RyMgreen:#b2df28;
+}
+body{
+  background-image: url('https://fotografias.lasexta.com/clipping/cmsimages01/2023/01/25/13700E73-A2B8-4CD7-83E2-19BF46FCDCB3/rick-morty_98.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b2df28;
+  border-radius:10px
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b2df28;
+}
+
+.mx0{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.mx10{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

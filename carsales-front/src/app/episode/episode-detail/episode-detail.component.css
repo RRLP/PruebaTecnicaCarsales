@@ -1,0 +1,36 @@
+.divEpisode{
+  background-color: #00b5cc;
+}
+.divEpisodeContainer{
+  position: sticky;
+  top: 0;
+  background: var(--RyMblue);
+  color: var(--RyMgreen);
+  padding: 10px 50px;
+  border: 5px solid var(--RyMgreen);
+  /* border-bottom:none; */
+  /*
+  border-bottom: 2px solid var(--RyMgreen)
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  */
+}
+.divEpisodeContainer>h1{
+  margin: 6px 0px ;
+}
+.divEpisodeDetail{
+  display: flex; padding: 10px 10px;
+}
+.divEpisodeDetail>div{
+  width: 32%;
+  display: inline-flex;
+}
+.divEpisodeDetail>div>span{
+  margin: 0;font-size: 20px;
+}
+.divEpisodeDetailFooter{
+  display: flex;padding: 0px 10px;
+}
+.divEpisodeDetailFooter>h2{
+  margin: 0px 5px;
+}
