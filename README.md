@@ -1,5 +1,6 @@
 # PruebaTecnicaCarsales
-Para levantar el backend: 1.- ir a la carpeta "carsales-back" 2.- abrir archivo .sln
+Para levantar el backend:       
+1.- ir a la carpeta "carsales-back" 2.- abrir archivo .sln
 
 Para levantar el frontend:  
 1.- ir a la carpeta "carsales-front"           
